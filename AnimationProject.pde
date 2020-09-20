@@ -60,15 +60,15 @@ void draw() {
   }
   cloud2 = cloud2 + 1;
   if (cloud2 > 850) {
-    cloud2 = -100;
+    cloud2 = -50;
   }
   cloud3 = cloud3 + 1;
   if (cloud3 > 850) {
-    cloud3 = -100;
+    cloud3 = -50;
   }
   cloud4 = cloud4 + 1;
   if (cloud4 > 850) {
-    cloud4 = -100;
+    cloud4 = -50;
   }
   
   //background hills
