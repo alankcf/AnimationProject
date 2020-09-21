@@ -103,27 +103,27 @@ void draw() {
   ellipse(hill6, 400, 200, 200);
   
   //move hills
-  hill1 = hill1 + 5;
+  hill1 = hill1 + 4;
   if (hill1 > 1000) {
     hill1 = -200;
   }
-  hill2 = hill2 + 5;
+  hill2 = hill2 + 4;
   if (hill2 > 1000) {
     hill2 = -200;
   }
-  hill3 = hill3 + 5;
+  hill3 = hill3 + 4;
   if (hill3 > 1000) {
     hill3 = -200;
   }
-  hill4 = hill4 + 5;
+  hill4 = hill4 + 4;
   if (hill4 > 1000) {
     hill4 = -200;
   }
-  hill5 = hill5 + 5;
+  hill5 = hill5 + 4;
   if (hill5 > 1000) {
     hill5 = -200;
   }
-  hill6 = hill6 + 5;
+  hill6 = hill6 + 4;
   if (hill6 > 1000) {
     hill6 = -200;
   }
@@ -143,7 +143,7 @@ void draw() {
   ellipse(bunny-50, 400, 30, 30);
   
   //move bunny
-  bunny = bunny + 7;
+  bunny = bunny + 6;
   if (bunny > 1000) {
     bunny = -100;
   }
