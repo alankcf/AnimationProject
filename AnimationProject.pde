@@ -135,12 +135,12 @@ void draw() {
   //blob
   fill(255);
   strokeWeight(0);
-  ellipse(bunny, 400, 200, 200); //head
-  ellipse(bunny-50, 300, 50, 100); //left ear
-  ellipse(bunny+50, 300, 50, 100); //right ear
+  ellipse(bunny, 450, 200, 200); //head
+  ellipse(bunny-50, 350, 50, 100); //left ear
+  ellipse(bunny+50, 350, 50, 100); //right ear
   fill(0);
-  ellipse(bunny+50, 400, 30, 30);
-  ellipse(bunny-50, 400, 30, 30);
+  ellipse(bunny+50, 450, 30, 30);
+  ellipse(bunny-50, 450, 30, 30);
   
   //move bunny
   bunny = bunny + 6;
